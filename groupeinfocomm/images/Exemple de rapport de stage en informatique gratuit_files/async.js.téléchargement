@@ -1,0 +1,17 @@
+(function($){
+    'use strict';
+
+    if(typeof footerUrl != 'undefined' && typeof footerSelector != 'undefined')
+    {
+        $.get(
+            footerUrl,
+            function(data) {
+                if (footerFolder != 'undefined' && footerFolder != '') {
+                    data = data.split('href="/').join('href="/' + footerFolder + '/');
+                }
+                $(footerSelector).append(data);
+            }
+        )
+    }
+
+})(window.jQuery);

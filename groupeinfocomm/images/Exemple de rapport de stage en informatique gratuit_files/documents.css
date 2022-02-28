@@ -1,0 +1,78 @@
+@media screen and (min-width: 720px) {
+  .custom-btn, #banner .additional-menu > ul > li.row-level-2 > div.content-level-2 > span, #banner .additional-menu > ul > li.row-level-2 > a {
+    color: white;
+    background-color: #a3de00;
+    border: 2px solid #a3de00; }
+    .custom-btn:hover, #banner .additional-menu > ul > li.row-level-2 > div.content-level-2 > span:hover, #banner .additional-menu > ul > li.row-level-2 > a:hover {
+      background: none;
+      color: #a3de00; }
+    .custom-btn.reverse, #banner .additional-menu > ul > li.row-level-2 > div.content-level-2 > span.reverse, #banner .additional-menu > ul > li.row-level-2 > a.reverse, #banner .additional-menu > ul > li:nth-child(2):not(:last-child).row-level-2 > a, .custom-btn#connexion, #banner .additional-menu > ul > li.row-level-2 > div.content-level-2 > span#connexion, #banner .additional-menu > ul > li.row-level-2 > a#connexion {
+      background: none;
+      color: #a3de00; }
+      .custom-btn.reverse:hover, #banner .additional-menu > ul > li.row-level-2 > div.content-level-2 > span.reverse:hover, #banner .additional-menu > ul > li.row-level-2 > a.reverse:hover, #banner .additional-menu > ul > li:nth-child(2):not(:last-child).row-level-2 > a:hover, .custom-btn#connexion:hover, #banner .additional-menu > ul > li.row-level-2 > div.content-level-2 > span#connexion:hover, #banner .additional-menu > ul > li.row-level-2 > a#connexion:hover {
+        color: white;
+        background-color: #a3de00;
+        border: 2px solid #a3de00; } }
+
+#banner .logo .image {
+  background: url(https://d3bitlwkrhb3yk.cloudfront.net/menu-galaxy/production/app/assets/img/logo/logo_docs.svg) no-repeat center center;
+  background-size: contain; }
+
+@media screen and (max-width: 719px) {
+  #banner.isOpen .image {
+    background: url(https://d3bitlwkrhb3yk.cloudfront.net/menu-galaxy/production/app/assets/img/logo/logo_neg_docs.svg) no-repeat center center;
+    background-size: contain; } }
+
+#banner #digi-news button {
+  background-color: #1aaa5b; }
+
+#banner .galaxy-search {
+  border-color: #1aaa5b; }
+  #banner .galaxy-search #magnifying-glass:hover, #banner .galaxy-search #magnifying-glass:focus {
+    border-color: #1aaa5b; }
+    #banner .galaxy-search #magnifying-glass:hover::before, #banner .galaxy-search #magnifying-glass:focus::before {
+      background: #1aaa5b; }
+  #banner .galaxy-search.search-active #magnifying-glass {
+    border-color: #1aaa5b; }
+    #banner .galaxy-search.search-active #magnifying-glass::before {
+      background-color: #1aaa5b; }
+  #banner .galaxy-search.search-active .input-container {
+    border-color: #1aaa5b; }
+
+@media screen and (min-width: 720px) {
+  #navigation nav {
+    background-color: #1aaa5b; }
+    #navigation nav li.row-level-4 a:hover span {
+      color: #1aaa5b; } }
+
+@media screen and (max-width: 719px) {
+  #navigation {
+    background-image: linear-gradient(55deg, #9ed605, #29bd6d); } }
+
+.custom-btn, #banner .additional-menu > ul > li.row-level-2 > div.content-level-2 > span, #banner .additional-menu > ul > li.row-level-2 > a {
+  font-size: 12px; }
+
+#galaxy-container li {
+  line-height: initial !important; }
+
+#banner li {
+  line-height: initial !important; }
+
+@media screen and (max-width: 719px) {
+  #banner .additional-menu > ul > li.row-level-2 a {
+    color: #a3de00; } }
+
+#banner #digi-news .typer {
+  width: 220px; }
+
+@media screen and (max-width: 900px) {
+  #banner #digi-news strong, #banner #digi-news .typer {
+    display: none; } }
+
+#banner #digi-news button {
+  background-color: #9ed605;
+  line-height: initial; }
+
+#digischool-galaxy-menu ul.list-level-3, #digischool-galaxy-menu ul.list-level-4 {
+  margin: 0;
+  padding: 0; }
